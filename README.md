@@ -28,10 +28,12 @@ Test run with oss-cad-suite (https://github.com/yosyshq/oss-cad-suite-build):
 [OSS CAD Suite] > git clone https://github.com/curliph/tang_nano_9k_test 
 [OSS CAD Suite] > cd tang_nano_9k_test
 
-[OSS CAD Suite] > cp patch/litex/programmer.py ../enjoy-digital/litex/litex/build/gowin 
-[OSS CAD Suite] > cp patch/litex/gowin.py ../enjoy-digital/litex/litex/build/gowin 
-[OSS CAD Suite] > cp patch/litex-boards/platforms/*.py ../enjoy-digital/litex-boards/litex-boards/platforms 
-[OSS CAD Suite] > cp patch/litex-boards/targets/*.py ../enjoy-digital/litex-boards/litex-boards/targets 
+# patches have been merged to LiteX/Litex-boards
+# so following 4 steps not needed now.
+# [OSS CAD Suite] > cp patch/litex/programmer.py ../enjoy-digital/litex/litex/build/gowin 
+# [OSS CAD Suite] > cp patch/litex/gowin.py ../enjoy-digital/litex/litex/build/gowin 
+# [OSS CAD Suite] > cp patch/litex-boards/platforms/*.py ../enjoy-digital/litex-boards/litex-boards/platforms 
+# [OSS CAD Suite] > cp patch/litex-boards/targets/*.py ../enjoy-digital/litex-boards/litex-boards/targets 
 ```
 
 ### for programming with Gowin Programmer
