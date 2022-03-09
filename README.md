@@ -1,8 +1,5 @@
 ## LiteX test for tang\_nano\_9k under Windows Powershell/WSL
 
-Before patch merged to main stream, you can run test by replace <br>
-files inside patch directory to corresponding files inside LiteX.
-
 Test run with oss-cad-suite (https://github.com/yosyshq/oss-cad-suite-build):
 
 ## Step Guide
